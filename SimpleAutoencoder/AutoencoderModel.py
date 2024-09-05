@@ -83,7 +83,7 @@ def main():
     imshow(images[0].view(28, 28), 'Original Image')
     imshow(reconstructed, 'Reconstructed Image')
 
-    torch.save(autoencoder.state_dict(), "mnist_autoencoder.pth")
+    torch.save(autoencoder.state_dict(), "Autoendcoder/mnist_autoencoder.pth")
 
 
 if __name__ == "__main__":
